@@ -9,9 +9,26 @@
         <servlet-name>FormServlet</servlet-name>
         <servlet-class>Ser.Servlet</servlet-class>
     </servlet>
-
     <servlet-mapping>
         <servlet-name>FormServlet</servlet-name>
         <url-pattern>/FormServlet</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>ReadCookie</servlet-name>
+        <servlet-class>Ser.ReadCookie</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ReadCookie</servlet-name>
+        <url-pattern>/ReadCookie</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>VisitCounter</servlet-name>
+        <servlet-class>Ser.VisitCounter</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>VisitCounter</servlet-name>
+        <url-pattern>/VisitCounter</url-pattern>
     </servlet-mapping>
 </web-app>
